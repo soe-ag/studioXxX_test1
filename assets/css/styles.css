@@ -1,0 +1,458 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  color: black;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.forsvg {
+  padding: 50px;
+  max-width: 600px;
+}
+
+.forsvg2 {
+  padding: 20px;
+  max-width: 800px;
+}
+
+.path1 {
+  stroke-dasharray: 74;
+  stroke-dashoffset: 74;
+  -webkit-animation: dash 0.5s ease-in forwards;
+          animation: dash 0.5s ease-in forwards;
+}
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.path2 {
+  stroke-dasharray: 244;
+  stroke-dashoffset: 244;
+  -webkit-animation: dash 1.7s 0.5s linear forwards;
+          animation: dash 1.7s 0.5s linear forwards;
+}
+
+.dot {
+  visibility: hidden;
+  -webkit-animation: fordot 0.3s 2.2s ease-out forwards;
+          animation: fordot 0.3s 2.2s ease-out forwards;
+}
+
+@-webkit-keyframes fordot {
+  to {
+    visibility: visible;
+  }
+}
+
+@keyframes fordot {
+  to {
+    visibility: visible;
+  }
+}
+
+.path3 {
+  stroke-dasharray: 44;
+  stroke-dashoffset: 44;
+  -webkit-animation: dash 0.3s 2.8s linear forwards;
+          animation: dash 0.3s 2.8s linear forwards;
+}
+
+.path4 {
+  stroke-dasharray: 40;
+  stroke-dashoffset: 40;
+  -webkit-animation: dash 0.3s 3.1s linear forwards;
+          animation: dash 0.3s 3.1s linear forwards;
+}
+
+.path5 {
+  stroke-dasharray: 15;
+  stroke-dashoffset: 15;
+  -webkit-animation: dash 0.15s 3.4s linear forwards;
+          animation: dash 0.15s 3.4s linear forwards;
+}
+
+.path6 {
+  stroke-dasharray: 18;
+  stroke-dashoffset: 18;
+  -webkit-animation: dash 0.15s 3.6s linear forwards;
+          animation: dash 0.15s 3.6s linear forwards;
+}
+
+.path7 {
+  stroke-dasharray: 45;
+  stroke-dashoffset: 45;
+  -webkit-animation: dash 0.3s 3.75s linear forwards;
+          animation: dash 0.3s 3.75s linear forwards;
+}
+
+.path8 {
+  stroke-dasharray: 40;
+  stroke-dashoffset: 40;
+  -webkit-animation: dash 0.3s 4.1s ease-out forwards;
+          animation: dash 0.3s 4.1s ease-out forwards;
+}
+
+.twopath1 {
+  stroke-dasharray: 112;
+  stroke-dashoffset: 112;
+  -webkit-animation: dash 1.5s ease-in forwards;
+          animation: dash 1.5s ease-in forwards;
+  stroke: white;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.c-section {
+  padding: 50px;
+}
+
+.c-section__text {
+  color: #fff;
+  font-size: 150px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  line-height: 130px;
+  background: url("../img/studioxbkg.png");
+  background-size: auto 50%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: shine 8s linear infinite;
+          animation: shine 8s linear infinite;
+  -webkit-text-stroke: 2px #a5a5a5;
+}
+
+.c-section__text2 {
+  position: relative;
+  color: #fff;
+  font-size: 150px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  line-height: 130px;
+  z-index: 10;
+}
+
+.c-section__text3 {
+  position: relative;
+  color: #fff;
+  letter-spacing: 5px;
+  z-index: 10;
+  font-size: 0px;
+}
+
+.c-section__text3 li {
+  display: inline-block;
+  font-size: 150px;
+  font-weight: 900;
+  line-height: 130px;
+}
+
+.c-section__text3 li:hover {
+  color: white;
+  -webkit-animation: flip 1s ease-in;
+          animation: flip 1s ease-in;
+}
+
+@-webkit-keyframes flip {
+  0% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+  100% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+@keyframes flip {
+  0% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+  100% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+.gradient {
+  background: -webkit-gradient(linear, left top, right top, from(#B7C4CF), color-stop(#BFC3C7), color-stop(#C7C2BF), color-stop(#CFC1B6), to(#D7C0AE));
+  background: linear-gradient(to right, #B7C4CF, #BFC3C7, #C7C2BF, #CFC1B6, #D7C0AE);
+}
+
+.black {
+  position: relative;
+  background: black;
+  overflow: hidden;
+}
+
+@-webkit-keyframes shine {
+  from {
+    background-position: center 0;
+  }
+  to {
+    background-position: center 200%;
+  }
+}
+
+@keyframes shine {
+  from {
+    background-position: center 0;
+  }
+  to {
+    background-position: center 200%;
+  }
+}
+
+.xletter {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  height: auto;
+  width: 100%;
+}
+
+.fromright1 {
+  left: 0;
+  -webkit-animation: right1 5s linear infinite;
+          animation: right1 5s linear infinite;
+}
+
+.fromright2 {
+  top: 85px;
+  left: 0;
+  -webkit-animation: right1 9s linear infinite;
+          animation: right1 9s linear infinite;
+}
+
+.fromright3 {
+  top: 170px;
+  left: 0;
+  -webkit-animation: right1 7s linear infinite;
+          animation: right1 7s linear infinite;
+}
+
+.fromleft1 {
+  top: 405px;
+  right: 0;
+  -webkit-animation: left1 6s linear infinite;
+          animation: left1 6s linear infinite;
+}
+
+.fromleft2 {
+  top: 320px;
+  right: 0;
+  -webkit-animation: left1 8s linear infinite;
+          animation: left1 8s linear infinite;
+}
+
+.fromleft3 {
+  top: 235px;
+  right: 0;
+  -webkit-animation: left1 4s linear infinite;
+          animation: left1 4s linear infinite;
+}
+
+@-webkit-keyframes right1 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -200%;
+  }
+}
+
+@keyframes right1 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -200%;
+  }
+}
+
+@-webkit-keyframes left1 {
+  from {
+    right: 100%;
+  }
+  to {
+    right: -200%;
+  }
+}
+
+@keyframes left1 {
+  from {
+    right: 100%;
+  }
+  to {
+    right: -200%;
+  }
+}
+
+.ballcss {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.8;
+  z-index: 7;
+}
+
+#floatingballs {
+  overflow: hidden;
+}

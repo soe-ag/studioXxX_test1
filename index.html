@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>studioXxX</title>
+  <link rel="icon" type="image/x-icon" href="./assets/img/pc/icons8-user-96.png">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+  <!---------------------- for google font ------------------------------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+  <!---------------------- for jquery ------------------------------->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!---------------------- for swiper ------------------------------------>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+  <!---------------------- scroll script --------------------------------->
+  <script>
+    $(document).ready(function () {
+      function fadeAnimation() {
+        $('.fadein').each(function () {
+          var bottom_element = $(this).offset().top + ($(window).height() / 3);
+          var bottom_window = $(window).scrollTop() + $(window).height();
+
+          if (bottom_window >= bottom_element) {
+            $(this).addClass('fade_on');
+          }
+        })
+      }
+      $(window).scroll(function () {
+        fadeAnimation();
+      });
+
+      // $(window).on('load', function () {
+      //   fadeAnimation();
+      // })
+      fadeAnimation();
+      // $('p-top__block').addClass('fade_on');
+    })
+  </script>
+
+</head>
+
+<body>
+  <div class="l-wrapper">
+    <main>
+      <div class="c-section" id="fromvanta">
+        <div class="c-section__text">studio<br> XxX<br>inc</div>
+      </div>
+      <div class="c-section gradient">
+        <div class="c-section__text">studio <br> XxX<br>inc</div>
+      </div>
+      <div class="c-section black">
+        <div class="c-section__text2">studio <br> XxX<br>inc</div>
+
+        <div class="xletter fromright1"><img src="./assets/img/grayX.png" alt=""></div>
+        <div class="xletter fromright2"><img src="./assets/img/grayX3.png" alt=""></div>
+        <div class="xletter fromright3"><img src="./assets/img/grayX2.png" alt=""></div>
+
+        <div class="xletter fromleft1"><img src="./assets/img/borderX.png" alt=""></div>
+        <div class="xletter fromleft2"><img src="./assets/img/borderX3.png" alt=""></div>
+        <div class="xletter fromleft3"><img src="./assets/img/borderX2.png" alt=""></div>
+      </div>
+
+      <div class="c-section ">
+        <div class="c-section__block" id="floatingballs">
+          <ul class=" c-section__text3">
+            <li><span>s</span></li>
+            <li><span>t</span></li>
+            <li><span>u</span></li>
+            <li><span>d</span></li>
+            <li><span>i</span></li>
+            <li><span>o</span></li>
+            <br>
+            <li><span>X</span></li>
+            <li><span>x</span></li>
+            <li><span>X</span></li>
+            <br>
+            <li><span>i</span></li>
+            <li><span>n</span></li>
+            <li><span>c</span></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- <canvas id="c"></canvas> -->
+      <script type="importmap">{
+  	  "imports": {
+  		  "three": "https://threejs.org/build/three.module.js"
+     
+  	    }
+      }</script><!-- Remove this when import maps will be widely supported -->
+
+      <div class="c-section black">
+        <!-- <div class="c-section__text2">studio <br> XxX<br>inc</div> -->
+        <div class="forsvg">
+          <svg id="eOtnWFyzAcm1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 155 25" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><text dx="0"
+              dy="0" font-family="&quot;eOtnWFyzAcm1:::Meow Script&quot;" font-size="30" font-weight="700"
+              transform="matrix(1.207754 0 0 0.882353-.286222 18.873243)" stroke-width="0">
+              <tspan y="0" font-weight="700" stroke-width="0">Stu</tspan>
+            </text>
+            <path class="path1"
+              d="M88.257797,62.121759q4.566938-.97863,5.172757-2.003861c.605819-1.025231-.65242-1.631051-1.211637-2.003862s-8.295054-1.342896-11.184341,1.080378q-2.889287,2.423274-.592415,3.955831q2.009139,1.357861,4.385813,1.823875c2.376674.466014,5.417769,2.758912,5.417769,2.991919s1.025231,1.776616,0,3.267861q-1.025231,1.491245-3.955831,2.923875-2.726171.827029-5.255336,1.20501c-2.529165.377981-6.749956.031499-6.938946-.031498s-3.558256-.825858-4.918988-2.549453-1.719926-4.955353,5.847751-7.807714"
+              transform="translate(-63.999994-53.999996)" fill="none" stroke="#fff" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="73.669416" />
+            <path class="path2"
+              d="M98.732224,64.974124h6.911225q1.309969.057334,1.852026-1.823875c.542057-1.881209.316199-4.047971-1.355143-3.032347q-1.671342,1.015624-8.943937,9.91439-.993773,1.31588-.27103,2.032713c.722743.716833,1.852027.650415,4.246111-.090343s7.13708-4.336455,7.588794-6.323996q.451714-1.987541-.406543-.676542-6.369171,8.524547-4.291283,7.807714c2.077888-.716833,9.124622-3.51746,9.982879-5.324316q.858257-1.806856-1.94237.508521-1.038942,2.527103-.722743,3.267861c.316199.740758.858257,1.201612,2.710284,0s3.5259-2.331772,3.107352-1.766692-1.674194,1.88096-1.255646,2.597793.965791.755645,2.263854.283622s6.136299-2.478121,7.198351-4.72023s1.711083-3.422167-.590029-3.363164q-2.301112.059003-5.015244,1.711083-3.953194,3.304161-4.130202,4.956242c-.177008,1.652081.059002,1.888092,1.829089,1.416069s18.703912-11.09254,18.703912-13.688667q0-2.596127-1.829089-1.298064-4.071198,2.65513-5.664276,4.956242c-1.593078,2.301112-6.313308,9.381457-5.369262,10.030489s4.248207-.059003,6.254305-1.416069q2.006098-1.357066,2.737238-1.636961l1.537102.069869q3.353676-2.515258,3.353676-3.353677c0-.838419-.628815.139736-2.585126,2.235784s-1.746705,4.331832-.209604,3.703018s7.669101-4.460407,8.00396-5.799841-1.395244-.05581-3.069537,1.897532-1.004577,4.408971-.558098,4.520591s1.841722.781338,3.906684-.334858s4.63221-2.790489,4.297352-5.413548-1.395244-2.51144-3.739254-1.953342-4.353163,3.683445-3.516016,4.91126s1.116197,1.116196,2.62306,1.785913s3.795064.223238,5.748406-.446479q1.953342-.669717,3.292776-3.069537"
+              transform="translate(-63.999991-54)" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" stroke-dasharray="243.160577" />
+            <ellipse class="dot" rx="1.666471" ry="0.999883" transform="translate(75.027763 9.729539)" fill="#fff"
+              stroke-width="0" stroke-linecap="round" stroke-linejoin="round" stroke-dashoffset="8.63"
+              stroke-dasharray="8.63" />
+            <path class="path3"
+              d="M157.452239,63.625622q-4.638803.980559-4.374806-1.357699t3.545102-3.507389q4.638803-1.885692,7.165631-.188569t1.244557,6.519366q-1.042713,8.667547,1.955085,8.667547c2.997798,0,5.800088-2.932629,6.712461-5.018054"
+              transform="translate(-63.999998-53.999997)" fill="none" stroke="#fff" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="43.787868" />
+            <path class="path4"
+              d="M179.328117,56.183972q-5.270906,3.856762-12.984429,7.97064c-7.713523,4.113878-11.377447,5.849422-15.298487,8.870551q-3.92104,3.021129.06428,3.149687"
+              transform="translate(-64-53.999999)" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" stroke-dasharray="38.407497" />
+            <path class="path5"
+              d="M178.702909,66.134965q.447378,3.690869,1.565823,4.641547c1.118445.950678,2.572424,1.621744,4.306013.726988q1.733589-.894756,3.523101-2.516501"
+              transform="translate(-63.999998-53.999999)" fill="none" stroke="#fff" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="14.00248" />
+            <path class="path6" d="M187.42678,63.618464q-6.710669,3.746791-13.42134,11.464062"
+              transform="translate(-64-54)" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" stroke-dasharray="17.737754" />
+            <path class="path7"
+              d="M194.854288,63.709441q-4.537894.709047-4.537894-.661776c0-1.370823.04727-2.22168,3.072533-3.87612s6.334145-1.748981,7.657697-.898125s2.127137,4.301545,1.65444,8.79217-.378157,6.475954,1.512632,6.523223s2.977994-.189079,4.490625-1.79625q1.512631-1.607171,2.505295-3.356151"
+              transform="translate(-63.999999-53.999996)" fill="none" stroke="#fff" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="44.219603" />
+            <path class="path8"
+              d="M216.991627,56.084391q-5.420193,4.114122-12.864796,7.836424c-7.444603,3.722302-11.558725,5.420193-14.627991,8.162942q-3.069266,2.742749-2.546838,4.24473"
+              transform="translate(-63.999999-54)" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" stroke-dasharray="37.065799" />
+          </svg>
+        </div>
+
+        <div class="forsvg2">
+          <svg id="en4LSWbrjac1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 156 50" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><text dx="0"
+              dy="0" font-family="&quot;en4LSWbrjac1:::Sacramento&quot;" font-size="25" font-weight="400"
+              transform="translate(6.943671 30.158625)" stroke-width="0">
+              <tspan y="0" font-weight="400" stroke-width="0">
+                <!-- Creative x Fact  -->
+              </tspan>
+            </text>
+            <path class="twopath1"
+              d="M17.102896,17.172045q-.544227.471664-.943328,1.414993c-.399101.943329-.181411,3.591905,3.519341,3.88216q3.700752.290255,5.514845-2.612295q1.668967-2.576013-.362818-4.934335t-7.555711-2.010622q-3.483114.553392-6.087311,2.864617t-2.994826,4.785213q-.536671,3.171805.989729,5.792605t5.6448,3.5712q2.6208.6624,4.9536.2304t5.328-2.5632q1.4976-1.1808,1.9008-2.1312"
+              transform="translate(.000002 0.000002)" fill="none" stroke="#3f5787" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path class="twopath1"
+              d="M29.000579,26.67965q.911594-2.320418.469609-3.204386c-.441985-.883968-.248618-.939216-1.077338-.110496s-.331489,1.132585.331488,1.325953s1.79556-.331488,2.541409.082872.552482.773472.276241,2.817649q-.276241,2.044177,1.24308,2.403289.745849.248615,1.795561-.580105c1.049712-.82872,1.712689-1.823185,2.099425-2.845274s-.497234,1.436446.414359,1.767935q.911593.331489,2.016553-1.325953.801095-1.436449-.193369-2.209922t-2.099425.883967q-.828721,1.436448.469608,3.314881t3.453002.6906q1.464072-1.160208,2.20992-2.651905"
+              transform="translate(.000005 0.000007)" fill="none" stroke="#3f5787" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path class="twopath1"
+              d="M47.255564,25.247235q-1.9-1.44-3.68.54t-.32,3.58q1.12.82,1.86.3c.74-.52,1.28-1.100001,1.46-2.200001q.18-1.1.08-.600001-.12,1.62.76,2.64t2.22-.06q2.732067-3.093796,3.619404-6.495254c.887337-3.401458,1.094382-6.18178.029578-6.980383q-1.064804-.798603-1.745096,2.543698-.613715,3.511381-.238209,6.381323t1.416993,4.170467q.568392.71049,1.542778.852588t1.948773-1.278882q1.058685-1.443618,1.290557-2.081266t.231872-2.347705q-.202887.840536-.260856,2.956369t.840536,2.782466q.898505.521713,1.739041.057968c.840536-.463745,1.88396-1.912945,2.46364-3.275194q.57968-1.362249.465096-1.931249-.859013,1.487283.216543,3.743327t2.0408.873592q.44-.38,1.18-2.04t.5-3.16q.22,1.82,1.18,2.62c.96.8,1.9.98,2.52.3q.62-.68.46-.88-.365061.655906.014939,1.515906t.84.68q1.625139-.938701,1.905139-2.278701c.28-1.34-.94-1.74-1.5-1.54s-1.445139,1.218701-1.285139,2.878701q.16,1.66,1.6,2.4.6.28,1.84.04t2.92-3.54"
+              transform="translate(.000005 0.000003)" fill="none" stroke="#3f5787" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path class="twopath1" d="M46.755423,17.974116l13.933102-.024748" fill="none" stroke="#3f5787"
+              stroke-linecap="round" stroke-linejoin="round" />
+            <path class="twopath1" d="M57.16132,20.534123q0,.84.72.82t.8-.78q-.06-.72-.72-.76t-.8.72Z" fill="none"
+              stroke="#3f5787" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" />
+            <path class="twopath1"
+              d="M82.827312,26.617996l1.3536-2.6208q.3744,2.0448.8352,2.9376c.4608.8928,1.3536,2.131199,2.0448,2.649599s1.4688.950399,2.9088-.028801q1.44-.9792,2.1312-3.024"
+              transform="translate(0 0.000002)" fill="none" stroke="#3f5787" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path class="twopath1" d="M89.393712,22.902796c-.7488.6912-3.7152,4.809599-4.896,7.286399"
+              transform="translate(0 0.000001)" fill="none" stroke="#3f5787" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path class="twopath1"
+              d="M98.741327,20.475438q-2.521711-1.960465-1.153673-4.626386t6.243867-2.52561q2.315141.17539,5.156452.912026t6.036534,1.387437q4.815595.892779,6.628208.892779c1.812613,0,2.666586-.14005,3.666586-.66005s1.58-1.02,1.54-1.84-.560001-1.48-2.380001-1.48-2.760001.56-4.000001,1.36-1.900001,2.72-2.260001,5.08.381503,4.577368-.483316,6.813968-2.612326,3.273752-4.172326,3.833752-3.19005.638464-4.79005.498464-3.02-.6-3.94-1.18-1.66-1.28-2.22-2.2q-.56-.92-.68-1.48"
+              transform="translate(.000004 0)" fill="none" stroke="#3f5787" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path class="twopath1"
+              d="M111.72281,21.99053c.032194,0,1.996004-.35413,5.891431-.35413s4.73246.000001,5.859237-.064387"
+              transform="translate(.000001 0)" fill="none" stroke="#3f5787" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path class="twopath1"
+              d="M126.983196,25.266505q-1.12-.94-2.34-.46c-1.22.48-1.54,1.12-1.94,1.92q-.4.8-.12,1.82.28.84.92,1.12c.64.28,1.38.12,1.76-.26s.72-.6.96-1.64q.24-1.04.16-.96.059999,1.72.479999,2.36t1.1.74q.62.02,1.02-.22c.4-.24,1-.78,1.24-1.2s.78-1.08,1.14-1.96"
+              transform="translate(.000001 0)" fill="none" stroke="#3f5787" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path class="twopath1"
+              d="M134.590116,26.286163q.347771-.63758.086943-1.362102c-.260828-.724522-1.130256-.840446-1.941721-.376752s-1.535986,1.507005-1.391082,3.332801q.144904,1.825796,1.738852,2.376433q2.057641.260826,3.245858-.869428c1.188217-1.130254,3.071975-3.506688,3.709554-5.796178s1.114533-5.564925.711593-6.716182-1.064914-1.381508-1.784449-.143907-.805881,3.655241-.892225,4.748935.143907,5.497252,1.180038,7.137793q1.036131,1.640541,2.158605,1.237602q1.151258-.287814,1.928356-1.554197t.949787-1.755667"
+              transform="translate(.000007 0.000003)" fill="none" stroke="#3f5787" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path class="twopath1" d="M133.524058,17.979416l14.139624-.042847" transform="translate(0 0.000001)"
+              fill="none" stroke="#3f5787" stroke-linecap="round" stroke-linejoin="round" />
+
+          </svg>
+        </div>
+
+
+
+      </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
+
+    <!------------------------------------------ three js cdn -------------------------------------------------------->
+    <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+
+    <!------------------------------------------ three js module for cube -------------------------------------------------------->
+    <script type="module">
+      import * as THREE from 'three';
+      // import { FontLoader } from 'https://unpkg.com/three@1.3.6/examples/jsm/loaders/FontLoader.js';
+      // import { ParametricGeometry } from 'https://unpkg.com/three@1.3.6/examples/jsm/geometries/ParametricGeometry.js';
+      // import { TextGeometry } from 'https://unpkg.com/three@1.3.6/examples/jsm/geometries/TextGeometry.js';
+
+      function cube() {
+        const canvas = document.querySelector("#c");
+        const renderer = new THREE.WebGLRenderer({ canvas });
+
+        const fov = 75;
+        const aspect = 2; // the canvas default
+        const near = 0.1;
+        const far = 10;
+        const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
+        camera.position.z = 2;
+        const scene = new THREE.Scene();
+
+        // -------------------below is 3D model data-----------------------------------------
+        const boxWidth = 1;
+        const boxHeight = 1;
+        const boxDepth = 1;
+        const geometry = new THREE.BoxGeometry(boxWidth, boxHeight, boxDepth);
+
+        // const material = new THREE.MeshBasicMaterial({ color: 0x44aa88 }); commented because not affected by lights
+        const material = new THREE.MeshPhongMaterial({ color: 0x44aa88 });
+        const cube = new THREE.Mesh(geometry, material);
+        // -------------------above is 3D model data-----------------------------------------
+
+        scene.add(cube);
+        renderer.render(scene, camera);
+        console.log("its is working");
+
+
+        // -------------------below is 3D model rotating code-----------------------------------------
+        function render(time) {
+          time *= 0.001;  // convert time to seconds
+
+          cube.rotation.x = time;
+          cube.rotation.y = time;
+
+          renderer.render(scene, camera);
+
+          requestAnimationFrame(render);
+        }
+        requestAnimationFrame(render);
+        // -------------------above is 3D model rotating code-----------------------------------------
+
+        {
+          const color = 0xFFFFFF;
+          const intensity = 1;
+          const light = new THREE.DirectionalLight(color, intensity);
+          light.position.set(-1, 2, 4);
+          scene.add(light);
+        }
+
+      }
+      cube();
+
+
+    </script>
+
+    <!---------------------------for vanta animated background ---------------------------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+    <!--------------------------vanta script  --------------------------------------------------------->
+    <script>
+      VANTA.NET({
+        el: "#fromvanta",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: true,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0xe7e7ff,
+        backgroundColor: 0x0,
+        points: 7.00,
+        maxDistance: 20.00,
+        spacing: 20.00
+      })
+    </script>
+  </div>
+</body>
+
+</html>
